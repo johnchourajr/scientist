@@ -1,24 +1,114 @@
+//
+// Variables
+// --------------------------------------------------
 
+// Fonts
+// -------------------------
 
-// Our variables
+$sans: "Proxima Nova", Helvetica, Arial, sans-serif;
+$slab: "Caponi-Slab-Semibold", Georgia, serif;
+
+// Borders
+// -------------------------
+
+$border: 1px solid rgba(0, 0, 0, .2);
+$border--lighter: 1px solid rgba(0, 0, 0, .1);
+$border-radius: 3px;
+
+// Spacing
+// -------------------------
+
+$space-1: 0.5rem; //  8px
+$space-2:   1rem; // 16px
+$space-3: 1.5rem; // 24px
+$space-4:   2rem; // 32px
+$space-5:   3rem; // 48px
+$space-6: 4.5rem; // 72px
+
+// Z-index
+// -------------------------
+$z1: 100;
+$z2: 200;
+$z3: 300;
+$z4: 400;
+
+// Colors
+// -------------------------
+
+// Fills
+$fill-red: #e32;
+$fill-red--lighter: #feebe9;
+$fill-pink: #eb2649;
+$fill-blue: #07e;
+$fill-yellow: #fe0;
+$fill-yellow--lighter: #fffab6;
+$fill-green: #6fb824;
+$fill-green--lighter: #f1f8e9;
+$fill-orange: #f49c1a;
+$fill-promoted-orange: #edb802;
+$fill-gray--lighter: #f4f4f4;
+$fill-gray: #aaa;
+$fill-gray--darker: #222;
+$fill-white: #fff;
+
+// Social Fills
+$fill-facebook: #3b5998;
+$fill-twitter: #55acee;
+$fill-google: #dd4b39;
+$fill-linkedin: #0077b5;
+$fill-pinterest: #bd081c;
+$fill-tumblr: #36465d;
+$fill-youtube: #cd201f;
+$fill-instagram: #517fa4;
+$fill-vine: #00b488;
+$fill-snapchat: #fffc00;
+
+// Type Colors
+$text-white: #fff;
+$text-gray: #333;
+$text-gray--lighter: #666;
+$text-gray--lightest: #999;
+$text-red: #e32;
+$text-orange: #f49c1a;
+$text-green: #6fb824;
+$text-blue: #07e;
+
+// Social Type Colors
+$text-facebook: #3b5998;
+$text-twitter: #55acee;
+$text-google: #dd4b39;
+$text-linkedin: #0077b5;
+$text-pinterest: #bd081c;
+$text-tumblr: #36465d;
+$text-youtube: #cd201f;
+$text-instagram: #517fa4;
+
+// Typography
+// -------------------------
+
 $base-font-family: serif;
-$base-font-size:   16px;
+$base-font-size: 16px;
+
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$text-1: 2.25rem;   // 36px
+$text-2: 1.375rem;  // 22px
+$text-3: 1.125rem;  // 18px
+$text-4: 1rem;      // 16px
+$text-5: .875rem;  // 14px
+$text-6: .75rem;   // 12px
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$line-height-1: 2.5rem; // 40px
+$line-height-2: 1.625rem; // 26px
+$line-height-3: 1.375rem; // 22px
+$line-height-4: 1.5rem; // 24px
+$line-height-5: 1.25rem; // 20px
+$line-height-6: 1rem; // 16px
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    90vw;
+// Layout
+// -------------------------
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$content-width:    90%;
