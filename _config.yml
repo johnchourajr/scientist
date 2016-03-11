@@ -1,5 +1,5 @@
 ---
-title: test
+title: Scientist Design
 url: http://scientist.design
 timezone: UTC
 collections:
@@ -22,3 +22,4 @@ defaults:
   values:
     layout: page
 permalink: pretty
+Field name: 
