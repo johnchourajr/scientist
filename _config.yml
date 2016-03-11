@@ -9,11 +9,11 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: john@scientist.design
 description: |
   We're a small design shop using Art & Science to change the game for brands, big and small.
-baseurl: ''
+email: john@scientist.design
+baseurl: 
 markdown: kramdown
 destination: _site
 sass:
-  style: :compressed
+  style: compressed
