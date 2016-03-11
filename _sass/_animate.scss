@@ -1,0 +1,52 @@
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+@include keyframes(color-animate) {
+    0% {
+        border-color: rgba(0, 255, 0, 1);
+        color: rgba(0, 255, 0, 1);
+    }
+
+    33% {
+        border-color: rgba(255, 0, 0, 1);
+        color: rgba(255, 0, 0, 1);
+    }
+
+    66% {
+        border-color: rgba(0, 0, 255, 1);
+        color: rgba(0, 0, 255, 1);
+    }
+
+    100% {
+        border-color: rgba(0, 255, 0, 1);
+        color: rgba(0, 255, 0, 1);
+    }
+}
+
+.border-animate {
+  border-top: $border-lg !important;
+  @include animation('color-animate 5s infinite');
+}
