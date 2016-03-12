@@ -11,7 +11,7 @@ $slab: "Caponi-Slab-Semibold", Georgia, serif;
 // Borders
 // -------------------------
 
-$border-lg: 12px solid rgba(0, 0, 0, 1);
+$border-lg: 9px solid rgba(0, 0, 0, 1);
 $border: 6px solid rgba(0, 0, 0, 1);
 $border--lighter: 5px solid rgba(0, 0, 0, .1);
 $border-radius: 3px;
@@ -87,19 +87,19 @@ $text-instagram: #517fa4;
 // Typography
 // -------------------------
 
-$base-font-family: serif;
+$base-font-family: "europa";
 $base-font-size: 16px;
 
-$base-font-weight: 400;
+$base-font-weight: 700;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$text-1: 2.25rem;   // 36px
-$text-2: 1.375rem;  // 22px
-$text-3: 1.125rem;  // 18px
-$text-4: 1rem;      // 16px
-$text-5: .875rem;  // 14px
-$text-6: .75rem;   // 12px
+$text-1: 2.25em;   // 36px
+$text-2: 1.375em;  // 22px
+$text-3: 1.125em;  // 18px
+$text-4: 1em;      // 16px
+$text-5: .875em;  // 14px
+$text-6: .75em;   // 12px
 
 $line-height-1: 2.5rem; // 40px
 $line-height-2: 1.625rem; // 26px

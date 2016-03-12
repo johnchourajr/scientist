@@ -10,9 +10,9 @@ collections:
     title: Uploads
     output: true
 description: |
-  We're a small design shop using Art & Science to change the game for brands, big and small.
+  A multi-disciplinary design shop using art & science to change the game for brands on the internet and in real life.
 email: john@scientist.design
-baseurl: 
+baseurl:
 markdown: kramdown
 destination: _site
 sass:

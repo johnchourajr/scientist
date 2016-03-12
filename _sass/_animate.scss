@@ -47,6 +47,5 @@
 }
 
 .border-animate {
-  border-top: $border-lg !important;
   @include animation('color-animate 5s infinite');
 }

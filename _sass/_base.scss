@@ -15,7 +15,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font-size: $base-font-size;
+    font-family: $base-font-family;
     color: $text-gray;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
@@ -84,10 +85,12 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    letter-spacing: .02em;
+    line-height: 1.35;
 }
 
 h1.display {
-  font-size: $base-font-size * 3;
+  font-size: $base-font-size * 4;
 }
 
 
