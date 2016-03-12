@@ -195,6 +195,16 @@ pre {
 
 
 .section {
-  padding: 30vh 0;
-  width: 100%;
+  &-y {
+    padding: 30vh 0;
+    width: 100%;
+  }
+  &-b {
+    padding-bottom: 30vh;
+    width: 100%;
+  }
+  &-t {
+    padding-top: 30vh;
+    width: 100%;
+  }
 }
