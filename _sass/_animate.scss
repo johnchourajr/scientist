@@ -26,23 +26,29 @@
 
 @include keyframes(color-animate) {
     0% {
-        border-color: rgba(0, 255, 0, 1);
-        color: rgba(0, 255, 0, 1);
+        //yellow
+        border-color: rgba(252, 238, 33, 1);
+        color: rgba(0, 75, 255, 1);
     }
 
     33% {
-        border-color: rgba(255, 0, 0, 1);
-        color: rgba(255, 0, 0, 1);
+        //red
+        border-color: rgba(255, 69, 0, 1);
+        color: rgba(252, 238, 33, 1);
+
     }
 
     66% {
-        border-color: rgba(0, 0, 255, 1);
-        color: rgba(0, 0, 255, 1);
+        //blue
+        border-color: rgba(0, 75, 255, 1);
+        color: rgba(255, 69, 0, 1);
+
     }
 
     100% {
-        border-color: rgba(0, 255, 0, 1);
-        color: rgba(0, 255, 0, 1);
+        //yellow
+        border-color: rgba(252, 238, 33, 1);
+        color: rgba(0, 75, 255, 1);
     }
 }
 
