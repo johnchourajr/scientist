@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.display {
-  font-size: $base-font-size * 4;
+  font-size: 9vw;
 }
 
 
@@ -196,4 +196,5 @@ pre {
 
 .section {
   padding: 30vh 0;
+  width: 100%;
 }
