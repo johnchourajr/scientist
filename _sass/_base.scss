@@ -93,6 +93,17 @@ h1.display {
   font-size: 9vw;
 }
 
+h3.display {
+  font-size: 1.5em;
+
+  @include media-query(sm) {
+    font-size: 2em;
+  }
+  @include media-query(md) {
+    font-size: 3em;
+  }
+}
+
 
 /**
  * Links
