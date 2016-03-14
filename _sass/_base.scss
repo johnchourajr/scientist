@@ -104,6 +104,12 @@ h3.display {
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    a {
+      text-decoration: underline;
+    }
+}
+
 
 /**
  * Links
@@ -219,3 +225,14 @@ pre {
     width: 100%;
   }
 }
+
+
+.lower { opacity: 0; }
+
+// .color-change, .color-change * a {
+//   color: rgb(61,61,63);
+// }
+//
+// .border-change {
+//   border-color: rgb(40,40,255);
+// }

@@ -52,6 +52,10 @@
     }
 }
 
-.border-animate {
+.border-animate, .border-animate * a {
   @include animation('color-animate 5s infinite');
+}
+
+*::selection {
+  // @include animation('color-animate 5s infinite');
 }
