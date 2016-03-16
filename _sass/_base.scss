@@ -213,8 +213,11 @@ pre {
 
 .section {
   &-y-header {
-    padding: 41vh 0;
+    padding: 45vh 0;
     width: 100%;
+    h1 {
+      line-height: 10vh;
+    }
   }
   &-y-lower {
     padding: 25vh 0;
