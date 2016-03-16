@@ -254,4 +254,12 @@ pre {
     background-position: center !important;
     mix-blend-mode: exclusion;
   }
+
+  .jumbotron {
+    .backstretch {
+      img {
+        display: block !important;
+      }
+    }
+  }
 }
