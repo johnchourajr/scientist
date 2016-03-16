@@ -12,7 +12,7 @@ collections:
 description: |
   A multi-disciplinary design shop using art & science to change the game for brands on the internet and in real life.
 email: john@scientist.design
-baseurl:
+baseurl: 
 ga: UA-75174054-1
 markdown: kramdown
 destination: _site
