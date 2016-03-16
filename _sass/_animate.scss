@@ -52,6 +52,30 @@
     }
 }
 
+@include keyframes(color-animate-bkg) {
+    0% {
+        //yellow
+        background: rgba(0, 75, 255, 1);
+    }
+
+    33% {
+        //red
+        background: rgba(252, 238, 33, 1);
+
+    }
+
+    66% {
+        //blue
+        background: rgba(255, 69, 0, 1);
+
+    }
+
+    100% {
+        //yellow
+        background: rgba(0, 75, 255, 1);
+    }
+}
+
 .border-animate, .border-animate * a {
   @include animation('color-animate 5s infinite');
 }

@@ -89,6 +89,10 @@ function Parallax() {
     'opacity': (1-(scrollPos / 500))
   });
 
+  $('.upper-2x').css({
+    'opacity': (1-(scrollPos / 250))
+  });
+
   $('.lower').css({
     'opacity': (0+(scrollPos / 500))
   });

@@ -8,11 +8,15 @@ description: |
 
   <div class="--border-animate">
 
-    <div class="col sm-col-12 section-y xs-text-center upper">
-      <h1 class="display border-animate">{{ site.title }}</h1>
+    <div class="col sm-col-12 section-y-header xs-text-center">
+      <h1 class="display text-white --border-animate">{{ site.title }}</h1>
     </div>
 
-    <div class="col sm-col-12 section-y xs-border-top border-animate lower">
+    <figure class="home-bkg upper">
+      <div style=" background: url('/img/mad-scientist.jpg');" alt=""></div>
+    </figure>
+
+    <div class="col sm-col-12 section-y-lower border-animate lower">
       <h3 class="display color-change sm-col-10 md-col-10 lg-col-7 xs-mx-auto xs-text-center">{{ page.description | markdownify }}</h3>
     </div>
 

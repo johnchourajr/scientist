@@ -212,8 +212,12 @@ pre {
 
 
 .section {
-  &-y {
-    padding: 30vh 0;
+  &-y-header {
+    padding: 41vh 0;
+    width: 100%;
+  }
+  &-y-lower {
+    padding: 25vh 0;
     width: 100%;
   }
   &-b {
@@ -226,13 +230,25 @@ pre {
   }
 }
 
-
 .lower { opacity: 0; }
 
-// .color-change, .color-change * a {
-//   color: rgb(61,61,63);
-// }
-//
-// .border-change {
-//   border-color: rgb(40,40,255);
-// }
+.home-bkg {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+  @include animation('color-animate-bkg 5s infinite');
+
+  div {
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+    mix-blend-mode: exclusion;
+  }
+}
