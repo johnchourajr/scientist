@@ -217,6 +217,7 @@ pre {
     width: 100%;
     h1 {
       line-height: 10vh;
+      font-family: serif;
     }
   }
   &-y-lower {
@@ -252,7 +253,7 @@ pre {
     height: 100%;
     background-size: cover !important;
     background-position: center !important;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: screen;
   }
 
   .jumbotron {
